@@ -17,6 +17,12 @@ Based on R-peaks and systolic peaks, Heart Rate (HR) and Pulse Rate (PR) are cal
 Noisy windows are removed from HR and PR. Subsequently, HRV and PRV metrics are computed over 5-minute windows with 30% overlap (saved as `.csv` files), both for the entire signals and after excluding noisy segments.
 Finally, several comparative analyses are performed between HRV and PRV metrics, including Pearson and Spearman correlations, Bland-Altman plots, and TOST equivalence tests.
 
+## Abstract
+Polysomnography is the gold standard for diagnosing sleep disorders, but its complexity and cost limit widespread use.
+Heart rate variability (HRV) is traditionally assessed from electrocardiography (ECG), while photoplethysmography (PPG), widely available in wearable devices, offers a more accessible alternative. However, its reliability over full-night recordings remains underexplored. 
+This study analyzes data from 50 subjects across five groups (healthy controls, rapid eye movement sleep behavior disorder, obstructive sleep apnea, periodic limb movements, and mixed comorbidities) to assess agreement between ECG-derived HRV and PPG-derived pulse rate variability (PRV), considering time-, frequency-, and nonlinear-domain features. 
+
+
 ## Repository Content and Structure
 
 ```text
