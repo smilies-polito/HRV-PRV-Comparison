@@ -83,8 +83,6 @@ Each subfolder contains `HRV` and `PRV` folders with `.csv` files for all subjec
 
 The scripts are organized into three separate folders, each corresponding to a specific step of the pipeline.
 
-<img width="2060" height="458" alt="Screenshot 2025-10-29 100535" src="https://github.com/user-attachments/assets/ef6a5f79-825e-49fc-b53e-dd5b092c42ee" />
-
 ### 🧩 Step 01 — Signal Processing & Peak Detection
 - `peaks_identification.py`: Processing of ECG and PPG signals, and ECG R-peaks and PPG systolic peaks detection for a single subject.
 	The data used in this work were acquired with two different devices (Nox and Somté) and organized in different formats; therefore, the pipeline is designed to handle both.  
