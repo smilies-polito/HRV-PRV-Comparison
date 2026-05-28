@@ -1,4 +1,4 @@
-# 💓 HRV/PRV Comparative Analysise
+# 💓 HRV/PRV Comparative Analysis
 
 This project provides a complete pipeline for analyzing cardiac variability derived from ECG signals (Heart Rate Variability – HRV) and PPG signals (Pulse Rate Variability – PRV).
 
